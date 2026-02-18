@@ -164,7 +164,15 @@ module.exports = [
     {
         name: 'youtube.com',
         match: /.*.youtube.com/i,
-        rules: ['gclid', 'feature', 'app', 'src', 'lId', 'cId', 'embeds_referring_euri'],
+        rules: ['gclid', 'feature', 'app', 'src', 'lId', 'cId', 
+            'si', 'embeds_referring_euri'],
+        redirect: 'q'
+    },
+        {
+        name: 'youtu.be',
+        match: /.*.youtu.be/i,
+        rules: ['gclid', 'feature', 'app', 'src', 'lId', 'cId',
+            'si', 'embeds_referring_euri'],
         redirect: 'q'
     },
     {
