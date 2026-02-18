@@ -293,7 +293,12 @@ module.exports = [
     {
         name: 'twitter.com',
         match: /twitter.com/i,
-        rules: ['s', 'src', 'ref_url', 'ref_src']
+        rules: ['s', 'src', 'ref_url', 'ref_src', 't']
+    },
+    {
+        name: 'x.com',
+        match: /x.com/i,
+        rules: ['s', 'src', 'ref_url', 'ref_src', 't']
     },
     {
         name: 'voidu.com',
