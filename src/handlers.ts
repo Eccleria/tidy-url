@@ -131,7 +131,7 @@ handlers['redirectingat.com'] = {
                 if (param && validateURL(param) === true) {
                     url = param;
                 } else {
-                    throw Error('Handler failed, result: ' + param ?? 'No param');
+                    throw Error('Handler failed, result: ' + param);
                 }
             } else {
                 // If the host is different nothing needs to be modified
