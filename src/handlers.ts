@@ -1,5 +1,5 @@
 import { IHandler } from './interface';
-import { decodeBase64, isJSON, regexExtract, validateURL } from './utils';
+import { decodeBase64, regexExtract, validateURL } from './utils';
 
 /**
  * This is currently experimental while I decide on how I want to restructure the main code to make it easier to follow.

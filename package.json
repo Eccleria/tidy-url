@@ -9,7 +9,8 @@
         "build": "tsc && webpack && ts-node src/postbuild.ts",
         "prepare": "npm run build",
         "version": "git add -A src",
-        "postversion": "git push && git push --tags"
+        "postversion": "git push && git push --tags",
+        "prettier": "prettier --write src"
     },
     "repository": {
         "type": "git",
@@ -32,6 +33,7 @@
     },
     "homepage": "https://github.com/DrKain/tidy-url#readme",
     "devDependencies": {
+        "@eslint/js": "^10.0.1",
         "@types/node": "^25.3.0",
         "@typescript-eslint/eslint-plugin": "^8.56.0",
         "@typescript-eslint/parser": "^8.56.0",
@@ -39,6 +41,7 @@
         "prettier": "3.8.1",
         "ts-loader": "9.5.4",
         "typescript": "5.9.3",
+        "typescript-eslint": "^8.56.0",
         "webpack": "5.105.2",
         "webpack-cli": "6.0.1"
     }
