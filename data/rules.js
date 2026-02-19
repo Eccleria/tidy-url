@@ -163,8 +163,9 @@ module.exports = [
     },
     {
         name: 'youtube.com',
-        match: /.*.youtube.com/i,
-        rules: ['gclid', 'feature', 'app', 'src', 'lId', 'cId', 'embeds_referring_euri'],
+        match: /(youtu\.be)|(youtube\.com)/i,
+        rules: ['gclid', 'feature', 'app', 'src', 'lId', 'cId', 
+            'si', 'embeds_referring_euri'],
         redirect: 'q'
     },
     {
@@ -285,7 +286,12 @@ module.exports = [
     {
         name: 'twitter.com',
         match: /twitter.com/i,
-        rules: ['s', 'src', 'ref_url', 'ref_src']
+        rules: ['s', 'src', 'ref_url', 'ref_src', 't']
+    },
+    {
+        name: 'x.com',
+        match: /x.com/i,
+        rules: ['s', 'src', 'ref_url', 'ref_src', 't']
     },
     {
         name: 'voidu.com',
