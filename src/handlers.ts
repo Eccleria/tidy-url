@@ -1,5 +1,5 @@
 import { IHandler } from './interface';
-import { decodeBase64, isJSON, regexExtract, validateURL } from './utils';
+import { decodeBase64, regexExtract, validateURL } from './utils';
 
 /**
  * This is currently experimental while I decide on how I want to restructure the main code to make it easier to follow.
@@ -131,7 +131,7 @@ handlers['redirectingat.com'] = {
                 if (param && validateURL(param) === true) {
                     url = param;
                 } else {
-                    throw Error('Handler failed, result: ' + param ?? 'No param');
+                    throw Error('Handler failed, result: ' + param);
                 }
             } else {
                 // If the host is different nothing needs to be modified

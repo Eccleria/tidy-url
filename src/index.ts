@@ -360,7 +360,7 @@ export class TidyCleaner {
                 }
 
                 // Re-clean the URL after handler result
-                target = allowReclean ? this.clean(recleanData ?? target, false).url : recleanData ?? target;
+                target = allowReclean ? this.clean(recleanData ?? target, false).url : (recleanData ?? target);
 
                 // If the key we want exists and is a valid url then update the data url
                 if (target && target !== '' && validateURL(target)) {
