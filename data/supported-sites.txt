@@ -1,4 +1,4 @@
-Total unique rules: 930
+Total unique rules: 931
 
 | Match                         | Rules |
 | :---------------------------- | :---- |
@@ -233,4 +233,4 @@ Total unique rules: 930
 | xvideos.red                   | 3     |
 | yahoo.com                     | 6     |
 | yandex.com                    | 5     |
-| youtube.com                   | 9     |
+| youtube.com                   | 10    |
