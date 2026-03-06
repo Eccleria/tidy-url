@@ -1,6 +1,6 @@
 {
-    "name": "@protontech/tidy-url",
-    "version": "1.18.5",
+    "name": "@eccleria/tidy-url",
+    "version": "1.19.5",
     "description": "Cleans/removes tracking or garbage parameters from URLs",
     "main": "lib/index.js",
     "types": "lib/index.d.ts",
@@ -14,7 +14,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/DrKain/tidy-url.git"
+        "url": "git+https://github.com/Eccleria/tidy-url.git"
     },
     "keywords": [
         "tidy",
@@ -31,7 +31,7 @@
     "bugs": {
         "url": "https://github.com/DrKain/tidy-url/issues"
     },
-    "homepage": "https://github.com/DrKain/tidy-url#readme",
+    "homepage": "https://github.com/Eccleria/tidy-url#readme",
     "devDependencies": {
         "@eslint/js": "^10.0.1",
         "@types/node": "^25.3.0",
