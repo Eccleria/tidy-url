@@ -378,7 +378,7 @@ module.exports = [
     {
         name: 'instagram.com',
         match: /instagram.com/i,
-        rules: ['igshid', 'igsh', 'source'],
+        rules: ['igshid', 'igsh', 'source', 'igsi'],
         redirect: 'u'
     },
     {
